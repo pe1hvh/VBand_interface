@@ -13,13 +13,15 @@ Related Websites
 - [VBand](https://hamradio.solutions/vband/)
 - [Seeeduino](https://wiki.seeedstudio.com/Seeed_Arduino_Boards/)
 
-Description
----------------
+Initial Setup and Key Detection
+-------------------------------
 
-In the intial setup the program wait for an input sign. Depending on an the input of your morse key it will used a act as straight key or paddle.
-  
-- using a single key => a pull down of the key and the insterface is set for the straight key;
-- using a paddle => press the right paddle
+During the initial setup, the program waits for an input signal. It then determines whether to operate as a straight key or paddle based on your input:
+
+    For straight key mode: Press and hold down the single key.
+    For paddle mode: Press the right paddle.
+
+The interface will automatically configure itself based on which input it detects first.
   
 Building Interface and STL file
 -------------------------------
