@@ -21,6 +21,25 @@ In the intial setup the program wait for an input sign. Depending on an the inpu
 - using a single key => a pull down of the key and the insterface is set for the straight key;
 - using a paddle => press the right paddle
   
+Building Interface and STL file
+-------------------------------
+
+![image](https://github.com/user-attachments/assets/cddb993a-dabf-4d2f-94d4-71d31f3f7a09)
+
+The STL files for the 3d printed Seeeduino case, you will found on morse-code-usbhid-interface-the-gadet
+
+![image](https://github.com/user-attachments/assets/899b217e-69dd-49e9-bf07-5bca6a823bf6)
+
+For this project pin 6 and 7 is used, so the building this project you can use the next software
+
+[morse-code-usbhid-interface-the-gadet](https://hackaday.io/project/184702-morse-code-usbhid-interface-the-gadet)
+[cw_lcwo_pcw_interface](https://github.com/pe1hvh/cw_lcwo_pcw_interface)
+
+
+Notes and Warning
+-----------------
+
+When you use the Keyboard.print() or Keyboard.press() command, the Arduino board takes over your keyboard! Make sure you have control before you use the command. A pushbutton to toggle the keyboard control state is effective.
 
 73 [PE1HVH ](https://www.pe1hvh.nl)
 
