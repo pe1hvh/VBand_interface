@@ -40,7 +40,7 @@ For this project pin 6, 7  and ground is used, so building this project you can 
 Notes and Warning
 -----------------
 
-When you use the Keyboard.print() or Keyboard.press() command, the Arduino board takes over your keyboard! Make sure you have control before you use the command. A pushbutton to toggle the keyboard control state is effective.
+When you use the Keyboard.print() or Keyboard.press() command, the Arduino board takes over your keyboard! Make sure you have control before you use the command.
 
 73 [PE1HVH ](https://www.pe1hvh.nl)
 
