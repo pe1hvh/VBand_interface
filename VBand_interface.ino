@@ -110,7 +110,7 @@ class InputType {
   public:
   
     /******************************************/
-    /* @brief The constructor                 */   
+    /* @brief setType                         */   
     /******************************************/
     void setType() {
          while (digitalRead(inPin6) == HIGH && digitalRead(inPin7)==HIGH) {
