@@ -4,12 +4,12 @@ Morse Code Interface for VBand
 Introduction
 ---------------
 
-This interface used the same hardware as the USB/HID Interface (The Gadget) and the cw_lcwo_pcw_interface. k
+This interface used the same hardware as the USB/HID Interface (The Gadget) and the cw_lcwo_pcw_interface.
   
 Related Websites
 ---------------
 
-- [For STL files and SeeeduinoXIAO pinout description](https://hackaday.io/project/184702-morse-code-usbhid-interface-the-gadet)
+- [For STL files and SeeeduinoXIAO](https://hackaday.io/project/184702-morse-code-usbhid-interface-the-gadet)
 - [VBand](https://hamradio.solutions/vband/)
 - [Seeeduino](https://wiki.seeedstudio.com/Seeed_Arduino_Boards/)
 
