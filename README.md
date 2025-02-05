@@ -31,7 +31,7 @@ The STL files for the 3d printed Seeeduino case, you will found on morse-code-us
 ![image](https://github.com/user-attachments/assets/9772ca79-4dc4-4013-a776-0f0fd51553f1)
 
 
-For this project pin 6 and 7 is used, so the building this project you can use the next software
+For this project pin 6, 7  and ground is used, so building this project you can use also the next software
 
 - [morse-code-usbhid-interface-the-gadet](https://hackaday.io/project/184702-morse-code-usbhid-interface-the-gadet)
 - [cw_lcwo_pcw_interface](https://github.com/pe1hvh/cw_lcwo_pcw_interface)
