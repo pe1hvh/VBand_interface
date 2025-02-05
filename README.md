@@ -28,7 +28,8 @@ Building Interface and STL file
 
 The STL files for the 3d printed Seeeduino case, you will found on morse-code-usbhid-interface-the-gadet
 
-![image](https://github.com/user-attachments/assets/899b217e-69dd-49e9-bf07-5bca6a823bf6)
+![image](https://github.com/user-attachments/assets/9772ca79-4dc4-4013-a776-0f0fd51553f1)
+
 
 For this project pin 6 and 7 is used, so the building this project you can use the next software
 
