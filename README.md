@@ -1,4 +1,4 @@
-Morse Code Interface for VBand for Seeeduino XIAO
+VBand Morse Code Interface for Seeeduino XIAO
 =================================================
 
 Introduction
