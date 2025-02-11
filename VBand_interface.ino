@@ -66,7 +66,7 @@ class StraightKeyHandler : public BaseHandler {
 
     void handleMorseKey(int pinKey ,int pinDummy) override {
              if(pinKey == LOW || pinDummy == LOW )  { //pin==LOW  => is closed (activated )
-                 Keyboard.print(KEY_LEFT_CTRL);       // print a space on the monitor window    
+                 Keyboard.press(KEY_LEFT_CTRL);       // print a space on the monitor window    
               } else {                                //pin==HIGH => is open ( deactived )
                  Keyboard.releaseAll();
               }  
@@ -88,9 +88,9 @@ class PaddleHandler : public BaseHandler {
 
     void handleMorseKey(int pinDot ,int pinDash) override {
              if(pinDot == LOW)                      { //pin==LOW  => is closed (activated )
-                 Keyboard.print(KEY_LEFT_CTRL);       // print a space on the monitor window    
+                 Keyboard.press(KEY_LEFT_CTRL);       // print a space on the monitor window    
               }else if(pinDash == LOW)              { //pin==LOW  => is closed (activated )  
-                 Keyboard.print(KEY_RIGHT_CTRL);      // print a space on the monitor window    
+                 Keyboard.press(KEY_RIGHT_CTRL);      // print a space on the monitor window    
               }  else {                               //pin==HIGH => is open ( deactived )
                  Keyboard.releaseAll();
               }  
